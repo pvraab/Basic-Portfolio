@@ -1,88 +1,81 @@
+<!-- HTML for Bootcamp Homework #1 -->
+<!-- 3/14/2019 -->
+<!-- ## Easier Assignment - Building a Wireframe -->
+
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- Meta information about this document -->
+<!-- Note the reset.css to clear browser specific styles -->
+
 <head>
     <meta charset="UTF-8">
-    <title>Profile</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Paul Raab</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 
 <body>
 
-    <!-- navbar -->
-    <section id="nav">
-            <nav class="main-nav valign-wrapper">
-                <div class="container">
-                    <div class="nav-wrapper">
-                        <a href="indexHard.html" class="brand-logo nav-link page-title light-text" id="page-title">Paul Raab</a>
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-chevron-circle-right"></i></a>
-                        <ul class="right hide-on-med-and-down nav-menu">
-                            <li><a class="nav-link" href="./about.html">About</a></li>
-                            <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                            <li><a class="nav-link" href=".//contact.html">Contact</a></li>
-                        </ul>
+    <!-- Wrapper div around all objects in the body. Used to  -->
+    <!-- assign default styles -->
+    <div class="wrapper">
+
+        <header>
+        </header>
+
+        <!-- Create the horizontal navigation bar -->
+        <div id="navBar">
+            <div id="navLogo">
+                <h2>Paul Raab</h2>
+            </div>
+            <div id="navUL">
+                <ul>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Content div -->
+        <div id=content>
+
+            <!-- Define a section which will be in -->
+            <!-- the middle part of the document. -->
+            <!-- Contains an Contact section. -->
+            <section id="contact">
+
+                <div id="contactText">
+
+                    <h2 id="contactHead">
+                        Contact
+                    </h2>
+
+                    <div id="contactSection">
+                            <form>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Smith">
+                                
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                                
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+                                
+                                    <input type="submit" value="Submit">
+                                  </form>
                     </div>
-                </div>
-            </nav>
-    
-            <ul class="sidenav nav-menu" id="mobile-demo">
-                <li><a class="nav-link" href="./about.html">About</a></li>
-                <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="nav-link" href="./contact.html">Contact</a></li>
-            </ul>
-        </section>
-    
-        <!-- Create the horizontal navigation bar as a section -->
-        <section id=hNav>
-            <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </section>
 
-    <h1 id=contact>Contact</h1>
-    <p>
-        Lorem ipsum dolor amet next level kickstarter mustache hell of. Narwhal letterpress flexitarian, trust fund
-        biodiesel health goth subway tile snackwave artisan. Vape biodiesel pinterest next level taxidermy, woke
-        adaptogen bitters gochujang jean shorts flexitarian hell of. Literally unicorn lomo subway tile, mixtape tote
-        bag portland distillery. Bicycle rights cloud bread edison bulb, lyft intelligentsia slow-carb church-key poke
-        selvage kale chips tacos deep v try-hard. You probably haven't heard of them lomo locavore humblebrag, celiac
-        kinfolk keffiyeh man braid narwhal PBR&B. Live-edge cliche heirloom leggings enamel pin polaroid cornhole
-        dreamcatcher keytar fingerstache flannel swag umami etsy.
-    </p>
+            </section>
+        </div>
 
-    <p>
-        Sartorial prism schlitz drinking vinegar tbh crucifix adaptogen lumbersexual irony. Williamsburg cliche
-        affogato keffiyeh chambray gastropub vape post-ironic crucifix occupy flannel jianbing tousled man braid.
-        Bitters forage mlkshk, cold-pressed vape subway tile try-hard paleo chia gastropub selfies chicharrones franzen
-        tilde. Truffaut biodiesel snackwave tattooed tilde bitters cronut intelligentsia messenger bag sartorial poke
-        shaman fanny pack. Pabst poke franzen tattooed tilde gentrify. Pickled deep v tumeric chillwave disrupt
-        wayfarers. Paleo shoreditch intelligentsia mumblecore XOXO taiyaki, four loko skateboard sartorial affogato
-        activated charcoal yuccie copper mug authentic selvage.
-    </p>
-
-    <p>
-        Roof party mumblecore post-ironic drinking vinegar, cliche mlkshk migas pickled air plant poutine la croix
-        typewriter selvage mustache cred. Aesthetic snackwave meggings hell of, man braid quinoa cliche poutine poke
-        gluten-free art party whatever fanny pack raclette franzen. Gentrify gochujang shoreditch VHS, austin kitsch
-        ennui knausgaard palo santo cronut bitters polaroid bushwick la croix 3 wolf moon. Pork belly wolf godard
-        retro. Hella pabst lo-fi paleo pour-over pitchfork narwhal neutra actually irony tumblr. Selfies kogi sriracha
-        poke subway tile heirloom helvetica squid austin hella woke intelligentsia mumblecore etsy. Bushwick cronut
-        vexillologist craft beer chia sustainable quinoa mlkshk keytar viral.
-    </p>
-
-    <p>
-        Vexillologist fingerstache deep v ethical meh XOXO poutine affogato humblebrag food truck subway tile gochujang
-        aesthetic. Adaptogen austin listicle, distillery subway tile leggings bushwick. Art party tote bag glossier
-        semiotics photo booth drinking vinegar listicle lomo. Ugh vape pitchfork before they sold out lyft leggings
-        sartorial. Vegan trust fund cray four loko flexitarian. Vaporware chillwave hot chicken prism deep v af lyft
-        fashion axe +1 kitsch williamsburg keytar pug four loko. Cred jianbing hammock kale chips sartorial craft beer
-        mlkshk yuccie swag.
-    </p>
-
+        <!-- Define a footer -->
+        <footer class=footer>
+            <h2>Copyright</h2>&copy
+        </footer>
+    </div>
 
 </body>
 
