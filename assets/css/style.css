@@ -129,6 +129,7 @@ li a:hover {
 #portfolio {
     background: #ffffff;
     width: 960px;
+    height: 700px;
     text-align: left;
     position: absolute;
     top: 140px;
@@ -152,7 +153,7 @@ li a:hover {
     width: 960px;
     text-align: left;
     position: absolute;
-    top: 200px;
+    top: 100px;
     left: 100px;
     margin-top: 50;
 }
@@ -162,6 +163,9 @@ li a:hover {
     width: 136px;
     height: 113px;
     padding-right: 20px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
 }
 
 #portfolioImg2 {
@@ -169,6 +173,9 @@ li a:hover {
     width: 136px;
     height: 113px;
     padding-right: 20px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
 }
 
 #portfolioImg3 {
@@ -176,6 +183,9 @@ li a:hover {
     width: 136px;
     height: 113px;
     padding-right: 20px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
 }
 
 #portfolioImg4 {
@@ -183,6 +193,9 @@ li a:hover {
     width: 136px;
     height: 113px;
     padding-right: 20px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
 }
 
 #portfolioImg5 {
@@ -190,12 +203,16 @@ li a:hover {
     width: 136px;
     height: 113px;
     padding-right: 20px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
 }
 
 /* Define Contact section styles. */
 #contact {
     background: #ffffff;
     width: 960px;
+    height: 300px;
     text-align: left;
     position: absolute;
     top: 140px;
@@ -221,7 +238,6 @@ li a:hover {
     padding-right: 20px;
 }
 
-
 /* Define footer style. */
 footer {
     width: 1160px;
@@ -229,7 +245,7 @@ footer {
     text-align: bottom;
     background-color: #666666;
     position: absolute;
-    top: 680px;
+    top: 880px;
     left: 0px;
     border-top: 8px solid #4aaaa5;
     display: flex;
