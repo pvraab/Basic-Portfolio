@@ -1,0 +1,254 @@
+/* 
+ * CSS style sheet for Bootcamp Homework #1
+ * 3/14/2019
+ * ## Easier Assignment - Building a Wireframe
+ */
+
+/* Set initial style for all */
+.wrapper {
+    box-sizing: border-box;
+    width: 1160px;
+    height: 960px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    overflow: auto;
+}
+
+/* 
+ * Define header block styles. Note usee of display: flex,
+ * align:items: center, and justify-content: center to 
+ * place text in center of block. 
+ */
+header {
+    width: 1160px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+
+/* Define horizontal nav block container styles. */
+#navBar {
+    width: 960px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navLogo {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 36px;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+}
+
+#navUL {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+}
+
+ul {
+    background: #ffffff;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: #777777;
+    background: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
+
+/* Define content style for background pattern */
+#content {
+    height: 1160px;
+    width: 1160px;
+    background-image: url("../images/ricepaper_v3.png");
+    background-repeat: repeat;
+    background-clip: content-box;
+}
+
+/* Define About Me section styles. */
+#aboutMe {
+    background: #ffffff;
+    width: 960px;
+    text-align: left;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    margin-top: 50;
+}
+
+#aboutMeHead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#aboutMeImg {
+    float: left;
+    width: 136px;
+    height: 113px;
+    padding-right: 20px;
+}
+
+/* Define Portfolio section styles. */
+#portfolio {
+    background: #ffffff;
+    width: 960px;
+    height: 700px;
+    text-align: left;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    margin-top: 50;
+}
+
+#portfolioHead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#portfolioGallery {
+    background: #ffffff;
+    width: 960px;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    margin-top: 50;
+}
+
+#portfolioImg1 {
+    float: left;
+    width: 136px;
+    height: 113px;
+    padding-right: 20px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+#portfolioImg2 {
+    float: left;
+    width: 136px;
+    height: 113px;
+    padding-right: 20px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+#portfolioImg3 {
+    float: left;
+    width: 136px;
+    height: 113px;
+    padding-right: 20px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+#portfolioImg4 {
+    float: left;
+    width: 136px;
+    height: 113px;
+    padding-right: 20px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+#portfolioImg5 {
+    float: left;
+    width: 136px;
+    height: 113px;
+    padding-right: 20px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+
+/* Define Contact section styles. */
+#contact {
+    background: #ffffff;
+    width: 960px;
+    height: 300px;
+    text-align: left;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    margin-top: 50;
+}
+
+#contactHead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#contactSection {
+    float: left;
+    width: 136px;
+    height: 113px;
+    padding-right: 20px;
+}
+
+/* Define footer style. */
+footer {
+    width: 1160px;
+    height: 60px;
+    text-align: bottom;
+    background-color: #666666;
+    position: absolute;
+    top: 880px;
+    left: 0px;
+    border-top: 8px solid #4aaaa5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
